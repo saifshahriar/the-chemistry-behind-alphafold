@@ -576,9 +576,9 @@ const Index = () => {
 							</div>
 
 							{/* QR Codes */}
-							<div className="flex items-center gap-8">
-								<div className="text-center">
-									<div className="w-24 h-24 bg-primary/10 rounded-lg flex items-center justify-center mb-2">
+							<div className="flex flex-wrap justify-center gap-8">
+								<div className="text-center w-24 sm:w-28 md:w-32">
+									<div className="w-full aspect-square bg-primary/10 rounded-lg flex items-center justify-center mb-2">
 										<img
 											src="/img-qr.png"
 											className="w-full h-full object-cover"
@@ -587,10 +587,11 @@ const Index = () => {
 									</div>
 									<p className="text-sm">AlphaFold Dataset</p>
 								</div>
-								<div className="text-center">
-									<div className="w-24 h-24 bg-primary/10 rounded-lg flex items-center justify-center mb-2">
+
+								<div className="text-center w-24 sm:w-28 md:w-32">
+									<div className="w-full aspect-square bg-primary/10 rounded-lg flex items-center justify-center mb-2">
 										<img
-											src="/img-qr.png"
+											src="/img-qr-2.png"
 											className="w-full h-full object-cover"
 											alt="QR Code"
 										/>
